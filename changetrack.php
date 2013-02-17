@@ -1,5 +1,5 @@
 <?php
-require('../server/pusher.php');
+require('pusher.php');
 
 $feeder = new Pusher("0b58d519bc309ee3e986", "4939abde63fccb31d533", "37610");
 
