@@ -41,7 +41,7 @@ if(isset($_GET['track']) && isset($_GET['artist'])) {
 	);
 
 	// Send ID in push message 
-	$feeder->trigger('messages', 'test_message', $ids[0]);
+	$pusher_feed->trigger('messages', 'test_message', $ids[0]);
 
 	// Signal finish
 	print 'DONE';
