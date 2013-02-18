@@ -1,0 +1,22 @@
+{
+	"AppDescription": {
+		"en": "Attempt to play youtube videos relating to track"
+	},
+	"AppIcon": {
+		"36x18": "app.png"
+	},
+	"AppName": {
+		"en": "Youtube test"
+	},
+	"BundleIdentifier": "youtube-thing",
+	"BundleType": "Application",
+	"BundleVersion": "0.1",
+	"SupportedLanguages": ["en"],
+	"VendorIdentifier": "com.graememaciver",
+	"Dependencies": {
+		"api": "0.1.0",
+	    "resources": "0.1.0",
+	    "util": "0.1.0"
+	},
+	"RequiredPermissions": ["http://127.0.0.1", "http://somewhere.com/"]
+}
