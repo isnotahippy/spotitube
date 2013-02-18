@@ -39,19 +39,19 @@
 	//    after the API code downloads.
 	var player;
 	function onYouTubeIframeAPIReady() {
-	player = new YT.Player('player', {
-	  videoId: 'u1zgFlCw8Aw',
-	  events: {
-	    'onReady': onPlayerReady,
-	    'onStateChange': onPlayerStateChange
-	  }
-	});
+		player = new YT.Player('player', {
+		  videoId: 'C0DPdy98e4c',
+		  events: {
+		    'onReady': onPlayerReady
+		  }
+		});
 	}
 
 	// 4. The API will call this function when the video player is ready.
 	function onPlayerReady(event) {
-	event.target.playVideo();
+		event.target.playVideo();
 	}
+
     </script>
 </body>
 </html>
