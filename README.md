@@ -43,6 +43,7 @@ url for changetrack.php
 "RequiredPermission", you can use 127.0.0.1 but Youtube blocks a lot of videos locally.
 4. Edit php_app/changetrack.php and change the configuration variables for Pusher, you can sign 
 up for a free Pusher sandbox account, create an app and enter the details in this file.
+5. Modify the Pusher API Key in index.php
 5. In spotify search for spotify:app:youtube-thing, this should start the app
 6. Navigate to index.php and start changing the tracks, videos should start playing...
 
